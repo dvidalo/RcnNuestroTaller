@@ -9,12 +9,12 @@ package RCN;
  *
  * @author diego vidal
  */
-public class TodoGamer extends javax.swing.JPanel {
+public class Inicio extends javax.swing.JPanel {
 
     /**
      * Creates new form TodoGamer
      */
-    public TodoGamer() {
+    public Inicio() {
         initComponents();
     }
 
