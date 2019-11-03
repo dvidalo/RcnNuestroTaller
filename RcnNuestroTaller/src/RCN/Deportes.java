@@ -44,7 +44,8 @@ public class Deportes extends javax.swing.JPanel {
 
         jFrame1.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel3.setMaximumSize(new java.awt.Dimension(1024, 400));
         jPanel3.setMinimumSize(new java.awt.Dimension(1028, 768));
 
         jLabel6.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
@@ -55,24 +56,29 @@ public class Deportes extends javax.swing.JPanel {
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/RCN/2a1.gif"))); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Arial", 1, 8)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("<html>Torino 0 - 1 Juventus: mira aqui el<p> gol y el resumen - Serie A<html>");
 
         jLabel3.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/RCN/a2.jpg"))); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("Arial", 1, 8)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("<html>El ingenioso tuit del levante tras<p> la remontada ante Barcelona que<p> le da la vuelta  al mundo<html>");
 
         jLabel5.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/RCN/assitentcia_de_arias.jpg"))); // NOI18N
         jLabel5.setText("<html><h2><strong>Sevilla 1 - 1 Atletico de Madrid: mira aqui  los goles y el resumen - Liga Santander</strong><p>\n El Atletico de Madrid igualo 1 - 1 con el Sevilla y el colombiano<p> Santiago Arias fue  protagonista en el equipo visitante<html>");
 
         jLabel7.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/RCN/cholo-.jpg"))); // NOI18N
         jLabel7.setText("<html><h2><strong>Simeone: La dupla entre santiago Arias y Correa fue muy peligrosa </strong><p> El DT argentino, Diego 'El Cholo' Simeone hablo en rueda<p> de prensa tras la igualdad entre Atletico Madrid y Sevilla,<p> y no olvido mencionar el gran partido de santiago Arias<html>");
         jLabel7.setToolTipText("");
 
         jLabel8.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/RCN/calii_cali_cali_invictacion.jpg"))); // NOI18N
         jLabel8.setText("<html><h2><strong>Pusineri firma excusa laboral para que los hinchas del Cali puedan ir a la final de Copa Aguila </strong><p>El partido entre Cali y Medellin sera este sabado a partir de las 5:30 p.m. en el canal RCN<html>");
 
@@ -90,30 +96,32 @@ public class Deportes extends javax.swing.JPanel {
                                 .addComponent(jLabel1)))
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addGap(34, 34, 34)
+                                .addGap(26, 26, 26)
                                 .addComponent(jLabel3))
                             .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addGap(26, 26, 26)
+                                .addGap(18, 18, 18)
                                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addComponent(jLabel6)
                     .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 920, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 1085, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(745, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addComponent(jLabel6)
-                .addGap(7, 7, 7)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(jLabel1)
+                        .addGap(7, 7, 7)
+                        .addComponent(jLabel1))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(jLabel3))
+                        .addComponent(jLabel3)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(24, 24, 24)
                 .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
