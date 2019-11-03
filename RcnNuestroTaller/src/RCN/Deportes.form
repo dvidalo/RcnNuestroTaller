@@ -152,7 +152,7 @@
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/RCN/cholo-.jpg"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;h2&gt;&lt;strong&gt;Simeone: La dupla entre santiago Arias y Correa fue muy peligrosa &lt;/strong&gt; El DT argentino, Diego &apos;El Cholo&apos;&lt;p&gt; Simeone hablo en rueda de prensa tras la igualdad entre Atletico Madrid y Sevilla,&lt;p&gt; y no olvido mencionar el gran partido de santiago Arias&lt;html&gt;"/>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;h2&gt;&lt;strong&gt;Simeone: La dupla entre santiago Arias y Correa fue muy peligrosa &lt;/strong&gt;&lt;p&gt; El DT argentino, Diego &apos;El Cholo&apos; Simeone hablo en rueda&lt;p&gt; de prensa tras la igualdad entre Atletico Madrid y Sevilla,&lt;p&gt; y no olvido mencionar el gran partido de santiago Arias&lt;html&gt;"/>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
             </Component>
@@ -164,7 +164,7 @@
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/RCN/calii_cali_cali_invictacion.jpg"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;Pusineri firma excusa laboral&lt;p&gt; para que los hinchas del Cali puedan&lt;p&gt; ir a la final de Copa Aguila&lt;html&gt;"/>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;h2&gt;&lt;strong&gt;Pusineri firma excusa laboral para que los hinchas del Cali puedan ir a la final de Copa Aguila &lt;/strong&gt;&lt;p&gt;El partido entre Cali y Medellin sera este sabado a partir de las 5:30 p.m. en el canal RCN&lt;html&gt;"/>
               </Properties>
             </Component>
           </SubComponents>

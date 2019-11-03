@@ -69,12 +69,12 @@ public class Deportes extends javax.swing.JPanel {
 
         jLabel7.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/RCN/cholo-.jpg"))); // NOI18N
-        jLabel7.setText("<html><h2><strong>Simeone: La dupla entre santiago Arias y Correa fue muy peligrosa </strong> El DT argentino, Diego 'El Cholo'<p> Simeone hablo en rueda de prensa tras la igualdad entre Atletico Madrid y Sevilla,<p> y no olvido mencionar el gran partido de santiago Arias<html>");
+        jLabel7.setText("<html><h2><strong>Simeone: La dupla entre santiago Arias y Correa fue muy peligrosa </strong><p> El DT argentino, Diego 'El Cholo' Simeone hablo en rueda<p> de prensa tras la igualdad entre Atletico Madrid y Sevilla,<p> y no olvido mencionar el gran partido de santiago Arias<html>");
         jLabel7.setToolTipText("");
 
         jLabel8.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/RCN/calii_cali_cali_invictacion.jpg"))); // NOI18N
-        jLabel8.setText("<html>Pusineri firma excusa laboral<p> para que los hinchas del Cali puedan<p> ir a la final de Copa Aguila<html>");
+        jLabel8.setText("<html><h2><strong>Pusineri firma excusa laboral para que los hinchas del Cali puedan ir a la final de Copa Aguila </strong><p>El partido entre Cali y Medellin sera este sabado a partir de las 5:30 p.m. en el canal RCN<html>");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
