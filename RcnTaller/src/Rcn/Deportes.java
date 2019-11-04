@@ -15,17 +15,17 @@ import javax.swing.JScrollPane;
  * @author mrdie
  */
 public class Deportes extends javax.swing.JFrame {
-    JFrame frame = new JFrame();
-    JPanel panel = new JPanel();
-    JScrollPane jScrollPane = new JScrollPane(panel);
-    
+//    JFrame frame = new JFrame();
+//    JPanel panel = new JPanel();
+//    JScrollPane jScrollPane = new JScrollPane(panel);
+//    
 //    jScrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
     /**
      * Creates new form Deportes
      */
     public Deportes() {
-        setLayout(null);
-        setBackground(Color.BLACK);
+//        setLayout(null);
+//        setBackground(Color.BLACK);
         
         
         initComponents();
