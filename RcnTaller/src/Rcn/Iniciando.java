@@ -5,6 +5,8 @@
  */
 package Rcn;
 
+import Rcn.Deportes;
+
 /**
  *
  * @author mrdie
