@@ -5,21 +5,33 @@
  */
 package Rcn;
 
-import javax.swing.DefaultBoundedRangeModel;
+import java.awt.Color;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 
 /**
  *
  * @author mrdie
  */
 public class Deportes extends javax.swing.JFrame {
-
+    JFrame frame = new JFrame();
+    JPanel panel = new JPanel();
+    JScrollPane jScrollPane = new JScrollPane(panel);
+    
+//    jScrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
     /**
      * Creates new form Deportes
      */
     public Deportes() {
+        setLayout(null);
+        setBackground(Color.BLACK);
+        
+        
         initComponents();
-        DefaultBoundedRangeModel model = (DefaultBoundedRangeModel) jScrollBar1.getModel();
+        
     }
+     
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -47,6 +59,7 @@ public class Deportes extends javax.swing.JFrame {
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jScrollBar1 = new javax.swing.JScrollBar();
+        jLabel13 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -98,7 +111,7 @@ public class Deportes extends javax.swing.JFrame {
                     .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel5)
                     .addComponent(jLabel7))
-                .addContainerGap(475, Short.MAX_VALUE))
+                .addContainerGap(105, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -118,7 +131,7 @@ public class Deportes extends javax.swing.JFrame {
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, 1030, 260));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, 660, 260));
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/k6.png"))); // NOI18N
 
@@ -132,7 +145,7 @@ public class Deportes extends javax.swing.JFrame {
                 .addComponent(jLabel8)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel9)
-                .addGap(0, 357, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -140,10 +153,10 @@ public class Deportes extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel8)
                     .addComponent(jLabel9))
-                .addGap(0, 7, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 530, 1020, 280));
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 530, 670, 280));
 
         jLabel10.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/ezgif.com-resize (3).gif"))); // NOI18N
@@ -166,7 +179,7 @@ public class Deportes extends javax.swing.JFrame {
                     .addComponent(jLabel10)
                     .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, 504, Short.MAX_VALUE)
                     .addComponent(jLabel12))
-                .addGap(0, 516, Short.MAX_VALUE))
+                .addGap(0, 176, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -175,21 +188,20 @@ public class Deportes extends javax.swing.JFrame {
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 19, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 810, 1020, 380));
-
-        jScrollBar1.setBackground(new java.awt.Color(0, 0, 0));
-        jScrollBar1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 810, 680, 380));
         getContentPane().add(jScrollBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 0, -1, 1210));
+
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/comple.png"))); // NOI18N
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 280, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    private void initComponents();static {
+
     
-}
     /**
      * @param args the command line arguments
      */
@@ -230,6 +242,7 @@ public class Deportes extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
